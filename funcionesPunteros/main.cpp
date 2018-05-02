@@ -17,11 +17,11 @@ int sumaRecursiva(int *p,int len)
         return *p;
     return *p +sumaRecursiva(++p,--len);
 }
-/*void swapnormal(int *a, int *b)
+void swapnormal(int *a, int *b)
 {
-    *a=a-b;
+    *a=*a-*b;
     *b=*a+*b;
-    *a=b-a;
+    *a=*b-*a;
 }
 void invierte(int *p,int len)
 {
@@ -29,17 +29,18 @@ void invierte(int *p,int len)
     for (int i=0;i<len/2;i++){
         swapnormal(p++,fin--);
     }
-}*/
-void invierte (int *p , int len)
+}
+/*void invierte (int *p , int len)
 {
     int temp;
     int *fin=p+len-1;
+    invierte (p,fin)
     for (;fin>=p;p++,fin--){
         temp=*p;
         *p=*fin;
         *fin=temp;
     }
-}
+}*/
 int tamanoCadena(char *cadena)
 {
     int tam=0;
