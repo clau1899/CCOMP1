@@ -1,0 +1,78 @@
+# depslib dependency file v1.0
+1528371944 source:c:\users\claudia\documents\c++\database3\main.cpp
+	<iostream>
+	<conio.h>
+	<string.h>
+	<fstream>
+	<stdlib.h>
+	<Menu.h>
+
+1528368956 source:c:\users\claudia\documents\c++\database3\src\alumno.cpp
+	"Alumno.h"
+
+1528368549 c:\users\claudia\documents\c++\database3\include\alumno.h
+	<Persona.h>
+	<string>
+	<Curso.h>
+	<Carrera.h>
+
+1528371668 c:\users\claudia\documents\c++\database3\include\persona.h
+	<string>
+	<Carrera.h>
+	<Curso.h>
+
+1528368956 c:\users\claudia\documents\c++\database3\include\curso.h
+	<string>
+
+1528365990 source:c:\users\claudia\documents\c++\database3\src\comunicacion.cpp
+	"Comunicacion.h"
+
+1528366174 c:\users\claudia\documents\c++\database3\include\comunicacion.h
+	<Curso.h>
+	<string>
+
+1528368956 source:c:\users\claudia\documents\c++\database3\src\curso.cpp
+	"Curso.h"
+
+1528365879 source:c:\users\claudia\documents\c++\database3\src\matematica.cpp
+	"Matematica.h"
+
+1528368861 c:\users\claudia\documents\c++\database3\include\matematica.h
+	<Curso.h>
+	<string>
+
+1528371668 source:c:\users\claudia\documents\c++\database3\src\persona.cpp
+	"Persona.h"
+	<string>
+
+1528367963 c:\users\claudia\documents\c++\database3\include\carrera.h
+	<string>
+
+1528367963 source:c:\users\claudia\documents\c++\database3\src\carrera.cpp
+	"Carrera.h"
+
+1528367171 source:c:\users\claudia\documents\c++\database3\src\profesor.cpp
+	"Profesor.h"
+
+1528368126 c:\users\claudia\documents\c++\database3\include\profesor.h
+	<Carrera.h>
+	<Persona.h>
+	<Curso.h>
+
+1528371684 source:c:\users\claudia\documents\c++\database3\src\menu.cpp
+	"Menu.h"
+	<string>
+	<iostream>
+	<conio.h>
+	<string.h>
+	<fstream>
+	<stdlib.h>
+	<Persona.h>
+
+1528373731 c:\users\claudia\documents\c++\database3\include\menu.h
+	<conio.h>
+	<string.h>
+	<fstream>
+	<stdlib.h>
+	<Persona.h>
+
